@@ -1,0 +1,29 @@
+@keyframes rotation {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.rotation {
+  animation: rotation 20s linear infinite;
+}
+
+.page {
+  min-width: 1100px;
+  max-width: 1600px;
+  margin: 0 auto;
+  font-family: 'Inter', 'Arial', sans-serif;
+  color: #000;
+}
+
+.space_bottom-20 {
+  margin-bottom: 20px;
+}
+
+.space_bottom-70 {
+  margin-bottom: 70px;
+}
