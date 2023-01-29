@@ -1,12 +1,15 @@
 /* Normalize */
-@import url('../styles/normalize.css');
+@import url('../vendor/normalize.css');
 
 /* Шрифты */
-@import url('../styles/fonts.css');
+@import url('../vendor/fonts/fonts.css');
 
 /* Общие стили */
 @import url('../blocks/page/page.css');
 
+/* Анимации*/
+/* rotation */
+@import url('../animations/rotation.css');
 
 /* Блок header */
 @import url('../blocks/header/header.css');
@@ -44,14 +47,19 @@
 /* Блок techniques */
 @import url('../blocks/techniques/techniques.css');
 
+/* Элементы techniques */
+@import url('../blocks/techniques/__section-title/techniques__section-title.css');
+
 
 /* Блок section-title */
 @import url('../blocks/section-title/section-title.css');
-
+/* Элементы блока section-title */
+@import url('../blocks/section-title/_theme/section-title_theme_dark.css');
 
 /* Блок section-subtitle */
 @import url('../blocks/section-subtitle/section-subtitle.css');
-
+/* Элементы блока section-subtitle */
+@import url('../blocks/section-subtitle/_theme/section-subtitle_theme_dark.css');
 
 /* Блок cards */
 @import url('../blocks/cards/cards.css');
@@ -67,6 +75,7 @@
 @import url('../blocks/video/video.css');
 
 /* Элементы блока video */
+@import url('../blocks/video/__section-title/video__section-title.css');
 @import url('../blocks/video/__iframes/video__iframes.css');
 @import url('../blocks/video/__iframe/video__iframe.css');
 
@@ -82,10 +91,15 @@
 @import url('../blocks/feynman/__title/feynman__title.css');
 @import url('../blocks/feynman/__subtitle/feynman__subtitle.css');
 @import url('../blocks/feynman/__link/feynman__link.css');
+/* Модификаторы элемента feynman__title */
+@import url('../blocks/feynman/__title/_position/feynman__title_position.css');
 
 
 /* Блок digits */
 @import url('../blocks/digits/digits.css');
+
+/* Элементы блока digits */
+@import url('../blocks/digits/__section-title/digits__section-title.css');
 
 
 /* Блок table */
@@ -98,6 +112,10 @@
 /* Модификаторы элемента table__cell */
 @import url('../blocks/table/__cell/_theme/table__cell_theme_light.css');
 @import url('../blocks/table/__cell/_theme/table__cell_theme_dark.css');
+/* Модификаторы элемента table__heading */
+@import url('../blocks/table/__heading/_theme/table__heading_theme_dark.css');
+/* Модификаторы элемента table__text */
+@import url('../blocks/table/__text/_theme/table__text_theme_dark.css');
 
 
 /* Блок khan */
@@ -120,16 +138,16 @@
 
 /* Элементы блока kaufman */
 @import url('../blocks/kaufman/__triangle/kaufman__triangle.css');
+@import url('../blocks/kaufman/__section-title/kaufman__section-title.css');
 
 /* Блок resources */
 @import url('../blocks/resources/resources.css');
 
 /* Элементы блока resources */
+@import url('../blocks/resources/__section-title/resources__section-title.css');
 @import url('../blocks/resources/__logo-zone/resources__logo-zone.css');
 @import url('../blocks/resources/__link/resources__link.css');
 @import url('../blocks/resources/__logo/resources__logo.css');
-/* Модификаторы элемента resources__logo-zone */
-@import url('../blocks/resources/__logo-zone/_space/resources__logo-zone_space_top-80.css');
 
 
 /* Блок footer */

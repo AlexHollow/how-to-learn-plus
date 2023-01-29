@@ -2,7 +2,7 @@
   position: absolute;
   bottom: 30px;
   left: 64px;
-  width: 388px;
+  max-width: 388px;
   font-size: 18px;
   font-weight: 400;
   line-height: 25px;

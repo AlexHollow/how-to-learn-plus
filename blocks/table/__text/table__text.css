@@ -3,3 +3,7 @@
   font-weight: 400;
   line-height: 1.2;
 }
+
+.table__text:not(:last-of-type) {
+  margin-bottom: 20px;
+}
